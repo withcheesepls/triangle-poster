@@ -1,0 +1,12 @@
+.triangle-wrapper {
+  position: relative;
+  margin: 50px 0;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
