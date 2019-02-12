@@ -2,6 +2,7 @@
   "name": "triangle",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/triangle-poster",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
