@@ -16,6 +16,7 @@ export default class Triangle extends React.Component {
   createTriangles(amount, width, firstColor, secondColor){
     let triangles = [];
     let triangleDiff = 32; // this should make sure the width triangle is not less than 0
+    // colorDif = (maxcolor - minColor)/amountoftrieangles
     let colorDif = firstColor.map((e, i)=> (Math.round((secondColor[i] > firstColor[i] ? -(secondColor[i] - firstColor[i]) : firstColor[i] - secondColor[i])/amount)));
     let fColor = firstColor.slice();
     let sColor = fColor.map((e, i) => e - colorDif[i]);

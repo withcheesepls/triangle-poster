@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(241, 241, 241);
   color: #635F60;
+  color: white;
 }
 
 code {
@@ -20,8 +21,10 @@ a {
   color: #939292;
   transition: color 200ms;
   font-size: .8rem;
+  color: white;
 }
 
 a:hover {
-  color: #635F60
+  color: #635F60;
+  color: #939292;
 }

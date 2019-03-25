@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -25,4 +29,24 @@
   float: right;
   margin: 0;
   font-size: 1.5rem;
+}
+
+.transition-triangle {
+  position: absolute;
+  opacity: 1;
+  transition: 8s opacity;
+  z-index: 10;
+}
+
+.poster .main-triangle {
+  opacity: 0;
+  transition: 8s opacity;
+}
+
+.poster.main-active .main-triangle {
+  opacity: 1;
+}
+
+.poster.main-active .transition-triangle {
+  opacity: 0;
 }
